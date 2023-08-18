@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  a,h1,h2,h3,h4,h5,span{
+    color:black
+  }
+  .nav-link:focus{
+    color:black
+  }
+  .gradient-8{
+    background-image: linear-gradient(0deg,#ffff,#fff);
+  }
+  @media screen and (max-width: 786px) {
+    .huhu {
+    height: 30vh !important;
+  }
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding-top: -0.3rem;
+  padding-bottom: 0.6rem;
+  margin-top: 10%;
+}
+.card-with-background {
+  position: relative;
+  width: 100%;
+  height: 338px;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 2; /* Adjust the overlay opacity as needed */
+  background-color: rgba(36, 75, 90, 0.90);
+  border-radius: 21px;
+}
+
+.card-body {
+  position: relative;
+  z-index: 1;
+}
+  
+ 
+  
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords" content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
+  <title>Land Expeditions</title>
+  <link rel="shortcut icon" href="./assets-new/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body class="box-layout">
+  <div class="content-wrapper bg-light">
+    <header class="position-absolute w-100 " >
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-dark caret-none" style="background-image: linear-gradient(0deg,#ffff,#fff);">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img class="logo-dark" src="./assets-new/Group 1871.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+              <img class="logo-light" src="./assets-new/Group 1871.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+              <button type="button" class="btn-close btn-close-grey" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div  class="offcanvas-body ms-lg-auto d-flex flex-column h-100" >
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a style="color:black" class="nav-link " href="#features" >Features</a>
+                
+                </li>
+                <li class="nav-item ">
+                  <a style="color:black" class="nav-link " href="#howitworks" >How It Works</a>
+                
+                </li>
+                <li class="nav-item ">
+                  <a style="color:black" class="nav-link " href="#resources" >Resources</a>
+                
+                </li>
+                <li class="nav-item ">
+                  <a style="color:black" class="nav-link " href="#contactus" >Contact Us</a>
+                
+                </li>
+
+                <li class="nav-item ">
+                  <div class="d-flex justify-content-center mb-4" data-cues="zoomIn" data-group="page-title-buttons" data-delay="900">
+                    <span><a style="background-color: grey;color:black;border-color:grey;"#" class="btn btn-lg btn-white">Sign Up</a></span>
+                  </div>
+                </li>
+               
+              </ul>
+              <!-- /.navbar-nav -->
+              <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                  <br /> 00 (123) 456 78 90 <br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
+                  <!-- /.social -->
+                </div>
+              </div>
+              <!-- /.offcanvas-footer -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true" style="background-image: linear-gradient(0deg,#ffff,#fff);">
+        <div class="offcanvas-header">
+          <h3 class="text-white fs-30 mb-0">Land Expeditions</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pb-6">
+          <div class="widget mb-8">
+            <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.</p>
+          </div>
+          <!-- /.widget -->
+          <div class="widget mb-8">
+            <h4 class="widget-title text-white mb-3">Contact Info</h4>
+            <address> Moonshine St. 14/05 <br /> Light City, London </address>
+            <a href="mailto:first.last@email.com">info@email.com</a><br /> 00 (123) 456 78 90
+          </div>
+          <!-- /.widget -->
+          <div class="widget mb-8">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
+            <ul class="list-unstyled">
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Follow Us</h4>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.offcanvas-body -->
+      </div>
+      <!-- /.offcanvas -->
+      
+      <!-- /.offcanvas -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper gradient-8 bg-lines" style="background-image: url('assets-new/hero-page.jpeg');background-size:cover;background-position: center;">
+      <div class="container pt-17 pt-md-16 pb-12 pb-lg-16 text-center">
+        <div class="row">
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+            <h3 style="color:black" class="display-1 fs-68 lh-xxs mb-8 text-black">Streamline Your Journey With <span >Land Expeditions</span> </h3>
+            <p style="color: black;font-weight:200px;">With our innovative solutions, we empower hospitality operators to unlock the full potential of their offerings and leave a lasting impression on every guest.</p>
+            <div class="d-flex justify-content-center mb-4" data-cues="zoomIn" data-group="page-title-buttons" data-delay="900">
+              <span><a style="background-color: grey;color:black;border-color:grey;" href="#" class="btn btn-lg btn-white">Request a Demo</a></span>
+            </div>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    
+
+    
+    <!-- /section -->
+      <div class="wrapper bg-light" >
+        <div class="container py-8 py-md-9 position-relative" style="margin-top: 25%;">
+          <figure class="rounded mt-n21 mt-lg-n23 mb-16 mb-md-18 position-relative" data-cues="fadeIn" data-delay="250" >
+            <a href="" class="btn btn-circle btn-white btn-play ripple mx-auto position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+            <div>
+              <video height="400" width="300" class="w-100 rounded caption-overlay d-block"  autoplay loop playsinline muted style="background-image: linear-gradient(0deg,#909090,#909090);padding:10px;border:10px solid aquamarine; border-radius: 25px;"></video>
+            </div>
+          </figure>
+        </div>
+
+        
+
+       
+       
+      
+      </div>
+      <!-- /.container -->
+    </section>
+
+
+    <section style="background-image: linear-gradient(white 50%, #244B5A 50%);" id="features">
+      <div class="container py-md-12 py-6" >
+        <div class="row text-center" >
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <h3 class="display-3 mb-10">Why Choose Land Expeditions?</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <div  class="swiper-container mb-10 row grid-view gy-6" data-margin="30" data-nav="false" data-dots="false" data-items-xl="3" data-items-md="2" data-items-xs="1" >
+          <div class="swiper">
+            <div class="swiper-wrapper container  py-md-17">
+              <div class="swiper-slide" style="    width: 345px;
+              margin-left: -15px;
+              margin-right: 30px;">
+                <div class="col-md-12 col-lg-12">
+                  <article>
+                    <div class="card shadow-lg">
+                      <div style="width: 100%; height: 100%;  justify-content: center;border-radius: 9999px; align-items: center;text-align: center;">
+                        <figure class="card-img-top overlay overlay-1 hover-scale">
+                          <div style="justify-content: center;text-align: center;align-items: center;width: 40%; margin-left: 30%; margin-top: 10%; background: #AAE4DD;border-radius: 9999px;">
+                            <img style="justify-content: center;text-align: center;align-items: center;" src="./assets-new/settings.svg" alt="" />
+                          </div>
+                        </figure>
+                      </div>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./blog-post.html">Maximize Efficiency</a></h2>
+                        </div>
+                        <!-- /.post-header -->
+                        <div class="post-content">
+                          <p>With automated booking management, real-time availability updates, and integrated communication tools, you can handle guest inquiries, reservations, and logistics with ease.</p>
+                        </div>
+                        <!-- /.post-content -->
+                      </div>
+                      <!--/.card-body -->
+                    
+                      <!-- /.card-footer -->
+                    </div>
+                    <!-- /.card -->
+                  </article>
+                  <!-- /article -->
+                </div>
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="col-md-12 col-lg-12">
+                  <article>
+                    <div class="card shadow-lg">
+                      <div style="width: 100%; height: 100%; justify-content: center;border-radius: 9999px; align-items: center;">
+                        <figure class="card-img-top overlay overlay-1 hover-scale"> 
+                          <div style="justify-content: center;text-align: center;align-items: center;width: 40%; margin-left: 30%; margin-top: 10%; background: #AAE4DD;border-radius: 9999px;">
+                            <img style="justify-content: center;text-align: center;align-items: center;" src="./assets-new/timer.svg" alt="" /></a>
+                          </div>
+                        </figure>
+                      </div>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="#">Save Time</a></h2>
+                        </div>
+                        <!-- /.post-header -->
+                        <div class="post-content">
+                          <p>From centralized guest profiles to automated reporting and analytics, you can access essential information and insights at your fingertips <br></br></p>
+                        </div>
+                        <!-- /.post-content -->
+                      </div>
+                      <!--/.card-body -->
+                      
+                      <!-- /.card-footer -->
+                    </div>
+                    <!-- /.card -->
+                  </article>
+                  <!-- /article -->
+                </div>
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="col-md-12 col-lg-12">
+                  <article>
+                    <div class="card shadow-lg">
+                      <div style="width: 100%; height: 100%;  border-radius: 9999px; align-items: center;">
+                        <figure class="card-img-top overlay overlay-1 hover-scale"> 
+                          <div style="justify-content: center;text-align: center;align-items: center;width: 40%; margin-left: 30%; margin-top: 10%; background: #AAE4DD;border-radius: 9999px;">
+                            <img style="width:99%;justify-content: center;text-align: center;align-items: center;border-radius: 9999px;" src="./assets-new/arrow-forward-all 1.svg" alt="" /></a>
+                          </div>
+                        </figure>
+                      </div>
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h2 class="post-title h3 mt-1 mb-3">Z</h2>
+                        </div>
+                        <!-- /.post-header -->
+                        <div class="post-content">
+                          <p> Our platform provides you with the tools to showcase your offerings, reach a wider audience, and increase bookings.<br></br><br></p>
+                        </div>
+                        <!-- /.post-content -->
+                      </div>
+                      <!--/.card-body -->
+                      
+                      <!-- /.card-footer -->
+                    </div>
+                    <!-- /.card -->
+                  </article>
+                  <!-- /article -->
+                </div>
+              </div>
+              <!--/.swiper-slide -->
+              
+              <!--/.swiper-slide -->
+            </div>
+            <!--/.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+<!-- /.swiper-container -->
+    </section>
+
+    <section class="wrapper bg-light" style="background-image: linear-gradient(#244B5A 60%, white 40% );" id="howitworks">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-md-8 col-lg-8 col-xl-8  "style="align-items: center;justify-content: center;text-align: center; ">
+            <div class="" data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+            <img class="huhu" src="./assets-new/about9.jpeg"  alt="" style="height: 60vh;border:10px solid white; border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+          </div>
+          <!--/column -->
+          <div class="col-lg-4 card shadow-lg" style="justify-content:center;height:60vh;align-items: center;text-align: center;">
+            
+            <h2 class="display-4 mb-3">How it Works?</h2>
+            <p class="lead fs-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ipsum, rhoncus sed sollicitudin eget, cursus ultricies magna.</p>
+            
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="wrapper bg-light" style="background-image: url('assets-new/about8.jpeg')">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center" >
+          
+          
+          <!--/column -->
+          <div class="col-lg-1"></div>
+          <div class="col-lg-3  card shadow-lg" style="justify-content:center;height:60vh;align-items: center;text-align: center;">
+            
+            <h2 class="display-4 mb-3">How it Works?</h2>
+            <p class="lead fs-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ipsum, rhoncus sed sollicitudin eget, cursus ultricies magna.</p>
+            
+            <!--/.row -->
+          </div>
+          <div class="col-md-8 col-lg-8 col-xl-8  " style="align-items: center;justify-content: center;text-align: center;">
+            
+            <img class="huhu" src="./assets-new/about9.jpeg"  alt="" style="height: 60vh;border:10px solid white; border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">          
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <div class="container py-14 py-md-16" >
+        <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+          <div class="col-md-8 col-lg-8 col-xl-8  " style="align-items: center;justify-content: center;text-align: center;">
+            
+            <img class="huhu" src="./assets-new/about9.jpeg"  alt="" style="height: 60vh;border:10px solid white; border-radius: 25px;box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);">
+          </div>
+          
+          <!--/column -->
+          <div class="col-lg-4 card shadow-lg" style="justify-content:center;height:60vh;align-items: center;text-align: center;">
+            
+            <h2 class="display-4 mb-3">How it Works?</h2>
+            
+            <p class="lead fs-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ipsum, rhoncus sed sollicitudin eget, cursus ultricies magna.</p>
+            
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <div class="col-12" style="justify-content: center;text-align: center;align-items: center;">
+          <h1 style="padding-top:10%;">People Who Have Worked With Us</h1>
+          <p>Industries we work with includes Restaurants, Enterprises, Hotels, Sports & Entertainment</p>
+          <div class="d-flex" style="justify-content: center;text-align: center;align-items: center;">
+            <img src="./assets-new/brands.jpeg" width="462" height="247">
+          </div>
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+      
+    </section>
+    <section>
+      
+    </section>
+<!-- /section -->
+<!-- /.swiper-container -->
+<section id="resources" style="background: #F6F6F6;" class="wrapper  wrapper-border">
+  <div class="container pt-15 pt-md-17 pb-13 pb-md-15">
+    <h2 style="text-align: center;" class="display-4 mb-3">Benefit Today And Grow Your Buisness</h2>
+
+
+  <div class="container">
+    <div class="row">
+      <!-- First Column -->
+      <div class="col-md-6" style="padding-left:12%;">
+        <div class="card-with-background align-items-center justify-content-center ">
+          <div class="card-overlay" style="background-image: linear-gradient(0deg, rgba(36, 75, 90, 0.90) 0%, rgba(36, 75, 90, 0.90) 100%), url(./assets-new/case-studies/casestudy-1.jpeg)"></div>
+          <div class="card-body">
+            <a href="#" style="margin: 3%;" class="btn btn-white rounded-pill">Case Study</a>
+          </div>                
+        </div>
+
+        <h2 style="padding-top:10%">Increase Retention With
+          Better customer Experience</h2>
+          <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ipsum, rhoncus sed sollicitudin eget, cursus ultricies magna. Vestibulum porttitor</p>
+          <a href>Learn More</a>
+          
+      </div>
+  
+      <!-- Second Column -->
+      <div class="col-md-6">
+        <div class="row">
+          <!-- First Sub-column -->
+          <div class="col-md-6" >
+            <div class="card-with-background  align-items-center justify-content-center" style="width:100%;height:220px;">
+              <div class="card-overlay" style="background-image: linear-gradient(0deg, rgba(36, 75, 90, 0.90) 0%, rgba(36, 75, 90, 0.90) 100%),url(./assets-new/case-studies/case2study2.jpeg)"></div>
+              <div class="card-body">
+                <a href="#" style="margin: 3%;" class="btn btn-white rounded-pill">Case Study</a>
+                <p style="color:white;text-align: left;
+                align-items: baseline;
+                
+                margin-left: 5%;">Building a Brand using Land Expeditions platform/Services</p>
+              </div>                
+            </div>
+              
+            <div class="card-with-background  align-items-center justify-content-center mt-2 mb-2" style="width:100%;height:220px;">
+              <div class="card-overlay" style="background-image: linear-gradient(0deg, rgba(36, 75, 90, 0.90) 0%, rgba(36, 75, 90, 0.90) 100%),url(./assets-new/case-studies/casestudy3.jpeg)"></div>
+              <div class="card-body">
+                <a href="#" style="margin: 3%;" class="btn btn-white rounded-pill">Case Study</a>
+                <p style="color:white;text-align: left;
+            align-items: baseline;
+            
+            margin-left: 5%;">Building a Brand using Land Expeditions platform/Services</p>
+              </div>                
+            </div>
+              
+          </div>
+  
+          <!-- Second Sub-column -->
+          <div class="col-md-6">
+            <div class="card-with-background align-items-center justify-content-center " style="width:100%;height:220px;">
+              <div class="card-overlay" style="background-image: linear-gradient(0deg, rgba(36, 75, 90, 0.90) 0%, rgba(36, 75, 90, 0.90) 100%),url(./assets-new/case-studies/casestudy4.jpeg)"></div>
+              <div class="card-body">
+                <a href="#" style="margin: 3%;" class="btn btn-white rounded-pill">Case Study</a>
+                <p id="a1" style="color:white;text-align: left;
+                align-items: baseline;
+                
+                margin-left: 5%;">Connect to customers and retain
+                older ones with better CRM</p>
+              </div>                
+            </div>
+            
+            <div class="card-with-background  align-items-center justify-content-center mt-2" style="width:100%;height:220px;"> 
+              <div class="card-overlay" style="background-image: linear-gradient(0deg, rgba(36, 75, 90, 0.90) 0%, rgba(36, 75, 90, 0.90) 100%),url(./assets-new/case-studies/casestudy3.jpeg)"></div>
+              <div class="card-body">
+                <a href="#" style="margin: 3%;" class="btn btn-white rounded-pill">Case Study</a>
+                <p style="color:white;text-align: left;
+                align-items: baseline;
+                
+                margin-left: 5%;
+                ">Connect to customers and retain
+                older ones with better CRM</p>
+              </div>                
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- /.container -->
+</section>
+    
+  
+    
+    <section id="testimonials" class="wrapper bg-white">
+      <div class="container py-14 py-md-16">
+        <h2 class="display-4 mb-3 text-center">Testimonials</h2>
+        <div class="position-relative">
+          <div class="shape rounded-circle bg-soft-yellow rellax w-16 h-16" data-rellax-speed="1" style="bottom: 0.5rem; right: -1.7rem;"></div>
+          <div class="swiper-container dots-closer mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="item-inner">
+                    <div style="background-color: #aae4dd ;" class="card">
+                      <div  class="card-body">
+                          <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                          <div class="blockquote-details">
+                            <img class="rounded-circle w-12" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                            <div class="info">
+                              <h5 class="mb-1">XYZ</h5>
+                              <p class="mb-0">Co Owner</p>
+                              <p class="mb-0">XYZ Inc.</p>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /.item-inner -->
+                </div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide">
+                  <div class="item-inner">
+                    <div style="background-color: #aae4dd ;" class="card">
+                      <div class="card-body">
+                          <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                          <div class="blockquote-details">
+                            <img class="rounded-circle w-12" src="./assets/img/avatars/te2.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+                            <div class="info">
+                              <h5 class="mb-1">XYZ</h5>
+                              <p class="mb-0">Co Owner.</p>
+                              <p class="mb-0">XYZ Inc.</p>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /.item-inner -->
+                </div>
+                <!--/.swiper-slide -->
+                <div class="swiper-slide">
+                  <div class="item-inner">
+                    <div style="background-color: #aae4dd ;" class="card">
+                      <div class="card-body">
+                          <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio dapibus facilisis sociis natoque penatibus.”</p>
+                          <div class="blockquote-details">
+                            <img class="rounded-circle w-12" src="./assets/img/avatars/te3.jpg" srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
+                            <div class="info">
+                              <h5 class="mb-1">XYZ</h5>
+                              <p class="mb-0">Co Owner.</p>
+                              <p class="mb-0">XYZ Inc.</p>
+
+                            </div>
+                          </div>
+                        </blockquote>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /.item-inner -->
+                </div>
+                <!--/.swiper-slide -->
+              
+                <!--/.swiper-slide -->
+              </div>
+              <!--/.swiper-wrapper -->
+            </div>
+            <!-- /.swiper -->
+          </div>
+          <!-- /.swiper-container -->
+        </div>
+        <!-- /.position-relative -->
+      </div>
+      <!-- /.container -->
+    </section>
+    
+
+    <section style="background-image:url(./assets-new/Group\ 47210.png)" class="text-inverse">
+      <div class="container py-15 py-md-17">
+        <div class="row text-center">
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+              <div style="text-align: center; color: black; font-size: 29px;  font-weight: 600; text-transform: capitalize; line-height: 33.64px; word-wrap: break-word">Unlock Your Business Potential <br/>with Land Expeditions</div>
+              <div class="d-flex justify-content-center " data-cues="zoomIn" data-group="page-title-buttons" data-delay="200" style="margin-top:10px;">
+                <span><button style="background-color: grey;color:black;border-color:grey; margin-right: 10px;" href="#" class="btn btn-white">Request Demo</button></span>
+                <span><button style="background-color: grey;color:black;border-color:grey;" href="#" class="btn btn-white">Sign Up</button></span>
+
+              </div>
+          </div>
+          
+          
+          
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+     
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section id="contactus" class="wrapper bg-light">
+      <div class="container py-14 py-md-16">
+        <div class="row">
+          <div class="col-xl-10 mx-auto">
+            <div class="row gy-10 gx-lg-8 gx-xl-12">
+           
+              <!--/column -->
+              <div class="col-lg-6">
+                <div class="d-flex flex-row">
+                  
+                  <div>
+                    <h1 style="color:black" class="mb-1">Contact Us</h1>
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  
+                  <div>
+                    <p style="color:black">Have questions or need assistance? We're here to help! Get in touch with our dedicated support team for any inquiries or support you may need.</p>
+                  </div>
+                </div>
+              
+              </div>
+  
+              <div class="col-lg-6">
+                <form class="contact-form needs-validation" method="post" action="./assets/php/contact.php" novalidate>
+                  <div class="messages"></div>
+                  <div class="row gx-4">
+                    <div class="col-md-12">
+                      <div class="form-floating mb-4" >
+                        <input  id="form_name" type="text" name="name" style="background-color:#b6c3c8;color:black;" class="form-control" placeholder="Jane" required>
+                        <label style="color: black;" for="form_name">Name *</label>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please enter your first name.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                    
+                    <!-- /column -->
+                    <div class="col-md-12">
+                      <div class="form-floating mb-4">
+                        <input  id="form_email" type="email" name="email" style="background-color:#b6c3c8;color:black;" class="form-control" placeholder="jane.doe@example.com" required>
+                        <label style="color: black;" for="form_email">Email *</label>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please provide a valid email address.
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                  
+                    <!-- /column -->
+                    <div class="col-12">
+                      <div class="form-floating mb-4">
+                        <textarea style="background-color:#b6c3c8" id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
+                        <label for="form_message" style="color:black">Question *</label>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                          Please enter your question
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /column -->
+                   
+                    <!-- /column -->
+                    <div class="col-12">
+                      <input style="color:black;background-color:#b6c3c8;border-color:#b6c3c8" type="submit" class="btn btn-primary btn-send mb-3" value="Submit">
+                      <p  class="text-black"><strong>*</strong> These fields are required.</p>
+                    </div>
+                    <!-- /column -->
+                  </div>
+                  <!-- /.row -->
+                </form>
+                <!-- /form -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="wrapper  text-inverse" style="background-color:#244b5a">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="./assets-new/logo-light.svg" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            <div class="widget">
+              <ul class="list-unstyled  mb-0">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#howitworks">How it works?</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#casestudies">Case Studies</a></li>
+              </ul>
+            </div>
+            
+            <!-- /.social -->
+          </div>
+
+          
+          <!-- /.widget -->
+        </div>
+
+         <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <div class="widget">
+              <ul class="list-unstyled  mb-0">
+                <li><a href="#">Support</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+              
+            </div>
+            
+            <!-- /.social -->
+          </div>
+        
+
+          
+          <!-- /.widget -->
+        </div>
+
+        <div class="col-md-4 col-lg-3">
+        </div>
+        <!-- /column -->
+        
+
+        
+        <!-- /column -->
+   
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Follow Us</h4>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <nav class="nav social social-white">
+                <a href="#"><i class="uil uil-linkedin"></i></a>
+
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+
+              </nav>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-12" style="text-align: center;justify-content:center;">
+          <div class="widget">
+            <p class="mb-4">© 2023 Land expeditions TM.<br class="d-none d-lg-block" />All Rights Reserved | Privacy Policy | Terms & Conditions</p>
+          </div>
+          <!-- /.widget -->
+        </div>
+        </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+  <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+          });
+      });
+  });
+  </script>
+</body>
+
+</html>
